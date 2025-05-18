@@ -1,74 +1,4 @@
 
-
-# 🌞 Solar Challenge - Week 1
-
-## 🛠️ Environment Setup
-
-Follow the steps below to set up the project locally.
-
-### ✅ Steps to Reproduce
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/solar-challenge-week1.git
-   cd solar-challenge-week1
-Set up a virtual environment
-
-On macOS/Linux:
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate
-On Windows:
-
-bash
-Copy
-Edit
-python -m venv venv
-venv\Scripts\activate
-Install required packages
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-🔁 CI/CD with GitHub Actions
-This project uses GitHub Actions to automate setup verification:
-
-✅ Workflow located at .github/workflows/ci.yml
-
-✅ Runs on Python 3.11
-
-✅ Installs dependencies from requirements.txt
-
-✅ Ensures reproducibility and environment health
-
-📁 Project Structure
-bash
-Copy
-Edit
-solar-challenge-week1/
-├── notebooks/              # EDA notebooks (e.g. benin_eda.ipynb, togo_eda.ipynb)
-├── data/                   # Cleaned CSVs (excluded from version control)
-├── scripts/                # Utility scripts
-
-
-
-
-
-
-You said:
-iwant readme doc in obne format
-
-
-ChatGPT said:
-Absolutely! Here's your complete and clean README.md in one markdown block — ready to copy and paste into your project root:
-
-markdown
-Copy
-Edit
 # 🌞 Solar Challenge - Week 1
 
 This repository contains Week 1 work for the 10Academy Solar Challenge. It includes environment setup, exploratory data analysis (EDA) for multiple countries, and a CI pipeline.
@@ -83,7 +13,7 @@ Follow these steps to reproduce the development environment:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/solar-challenge-week1.git
+   git clone https://github.com/abdirehim/solar-challenge-week1.git
    cd solar-challenge-week1
 Set up virtual environment
 
