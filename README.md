@@ -50,26 +50,7 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-📁 Project Structure
-bash
-Copy
-Edit
-solar-challenge-week1/
-├── .github/
-│   └── workflows/
-│       └── ci.yml             # CI configuration
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   ├── benin_eda.ipynb        # EDA for Benin
-│   ├── togo_eda.ipynb         # EDA for Togo
-│   └── compare_countries.ipynb # Task 3 analysis
-├── data/                      # Cleaned CSVs (not committed)
-├── scripts/
-│   └── README.md
-└── app/                       # Optional dashboard (Task 4)
-    └── main.py
+
 📊 Contents
 🔹 Task 1: Git & Environment Setup
 Set up virtual environment and repo structure
