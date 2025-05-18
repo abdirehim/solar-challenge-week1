@@ -1,15 +1,21 @@
+# Virtual environment folder
 venv/
+
+# Python cache
 __pycache__/
-*.ipynb_checkpoints/
-data/
-*.csv
-# Ignore data files
-data/*.csv
 
-# Ignore notebook outputs
-notebooks/*.png
-
-# Ignore all .ipynb checkpoints (Jupyter autosaves)
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
 **/.ipynb_checkpoints/
 
+# Data files
+data/
+*.csv
+data/*.csv
 
+# Notebook output images
+notebooks/*.png
+
+# Ignore tracked files if any remain (optional, but usually redundant)
+*.pyc
+*.pyo
