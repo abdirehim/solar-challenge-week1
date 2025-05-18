@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.ipynb_checkpoints/
+data/
+*.csv
+# Ignore data files
+data/*.csv
+
+# Ignore notebook outputs
+notebooks/*.png
+
+# Ignore all .ipynb checkpoints (Jupyter autosaves)
+**/.ipynb_checkpoints/
+
+
