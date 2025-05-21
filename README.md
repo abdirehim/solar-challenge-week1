@@ -5,11 +5,11 @@ This repository contains Week 1 work for the 10Academy Solar Challenge. It inclu
 
 ---
 
-## 🛠️ Environment Setup
+## Environment Setup
 
 Follow these steps to reproduce the development environment:
 
-### ✅ Steps to Reproduce
+### Steps to Reproduce
 
 1. **Clone the repository**
    ```bash
@@ -37,7 +37,8 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-🔁 CI/CD with GitHub Actions
+
+CI/CD with GitHub Actions
 This repository includes a GitHub Actions workflow to validate the setup automatically.
 
 ✅ Defined in .github/workflows/ci.yml
@@ -51,7 +52,7 @@ Copy
 Edit
 pip install -r requirements.txt
 
-📊 Contents
+Contents
 🔹 Task 1: Git & Environment Setup
 Set up virtual environment and repo structure
 
@@ -68,9 +69,9 @@ Correlation heatmaps and scatter plots
 
 
 
-📅 Submission
+Submission
 
 
-🚫 data/ folder is excluded from version control
+data/ folder is excluded from version control
 
 - This repo uses GitHub Actions to automatically check setup with Python 3.11.
